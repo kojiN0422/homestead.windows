@@ -1,8 +1,8 @@
-# Windows‚ÉHomestead‚ğ“±“ü‚·‚é
-- Šî–{“I‚ÉŒö®‚É‚Ì‚Á‚Ä‚¢‚éƒCƒ“ƒXƒg[ƒ‹•û–@‚Å‚·‚ªAæ‚Á‚Ä‚¢‚È‚¢‚±‚Æ‚Å‚Í‚Ü‚Á‚½“_‚ğ‹LÚ‚·‚éB
-## Homestead.yaml‚ª‚Ç‚±‚É‚ ‚é‚©•ª‚©‚ç‚È‚¢
-- Œö®‚É‚ÍAinit.sh‚ğÀs‚¹‚æBwindows‚â‚µ‚Æv‚Á‚½‚çinit.bat‚ª‚ ‚Á‚½B‚æ‚©‚Á‚½B‚³‚·‚ªB
-## ŒöŠJŒ®‚ª–³‚¢‚Æ‚¢‚¤‰º‹L‚ÌƒGƒ‰[‚ª”­¶‚·‚éB
+# Windowsã«Homesteadã‚’å°å…¥ã™ã‚‹
+- åŸºæœ¬çš„ã«å…¬å¼ã«ã®ã£ã¦ã„ã‚‹ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ–¹æ³•ã§è©¦ã™ãŒã€ä¹—ã£ã¦ã„ãªã„ã“ã¨ã§ã¯ã¾ã£ãŸç‚¹ã‚’è¨˜è¼‰ã™ã‚‹ã€‚
+## Homestead.yamlãŒã©ã“ã«ã‚ã‚‹ã‹åˆ†ã‹ã‚‰ãªã„
+- å…¬å¼ã«ã¯ã€init.shã‚’å®Ÿè¡Œã›ã‚ˆã€‚windowsã‚„ã—ã¨æ€ã£ãŸã‚‰init.batãŒã‚ã£ãŸã€‚ã‚ˆã‹ã£ãŸã€‚ã•ã™ãŒã€‚
+## å…¬é–‹éµãŒç„¡ã„ã¨ã„ã†ä¸‹è¨˜ã®ã‚¨ãƒ©ãƒ¼ãŒç™ºç”Ÿã™ã‚‹ã€‚
 ~~~ruby
 C:/work/localwork/lalavel/Homestead/scripts/homestead.rb:109:in `read': No such file or directory @ rb_sysopen - C:/Users/nishimine/.ssh/id_rsa (Errno::ENOENT)
         from C:/work/localwork/lalavel/Homestead/scripts/homestead.rb:109:in `block (2 levels) in configure'
@@ -32,17 +32,17 @@ C:/work/localwork/lalavel/Homestead/scripts/homestead.rb:109:in `read': No such 
         from C:/HashiCorp/Vagrant/embedded/gems/gems/vagrant-1.8.5/bin/vagrant:177:in `ensure in <main>'
         from C:/HashiCorp/Vagrant/embedded/gems/gems/vagrant-1.8.5/bin/vagrant:177:in `<main>'
 ~~~
-- ‚æ‚­‚ ‚é‚±‚ÆB‚æ‚­‚ ‚é‚±‚ÆBŠµ‚ê‚Á‚±‚æB–³‚¯‚ê‚Îì‚é‚×‚µBŒöŠJŒ®‚ÍWindows‚Å‚àì‚ê‚é‚İ‚½‚¢‚â‚¯‚ÇB¡‰ñ‚ÍAbash on Windows‚Å‚µ‚Ä‚İ‚éB
-### bash on windows‚ÌƒCƒ“ƒXƒg[ƒ‹ŠJnI@Ë@Š®—¹
-### bash ‚ÉÚ‘± ƒRƒ}ƒ“ƒhƒvƒƒ“ƒvƒg‚Åbash!!‚±‚ñ‚ÈŠ´‚¶‚ÅŒöŠJŒ®‚ğì¬
+- ã‚ˆãã‚ã‚‹ã“ã¨ã€‚ã‚ˆãã‚ã‚‹ã“ã¨ã€‚æ…£ã‚Œã£ã“ã‚ˆã€‚ç„¡ã‘ã‚Œã°ä½œã‚‹ã¹ã—ã€‚å…¬é–‹éµã¯Windowsã§ã‚‚ä½œã‚Œã‚‹ã¿ãŸã„ã‚„ã‘ã©ã€‚ä»Šå›ã¯ã€bash on Windowsã§ã—ã¦ã¿ã‚‹ã€‚
+### bash on windowsã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«é–‹å§‹ï¼ã€€â‡’ã€€å®Œäº†
+### bash ã«æ¥ç¶š ã‚³ãƒãƒ³ãƒ‰ãƒ—ãƒ­ãƒ³ãƒ—ãƒˆã§bash!!ã“ã‚“ãªæ„Ÿã˜ã§å…¬é–‹éµã‚’ä½œæˆ
 ~~~bash
 ssh-keygen -t rsa -C "your@email.com"
 ~~~
-### ‚ÅA‚Ç‚±‚Éì‚Á‚½‚©‚í‚©‚ç‚ñ‚æ‚¤‚É‚È‚éB‚»‚µ‚Ä’T‚·B‚ ‚Á‚½B‚±‚±B
+### ã§ã€ã©ã“ã«ä½œã£ãŸã‹ã‚ã‹ã‚‰ã‚“ã‚ˆã†ã«ãªã‚‹ã€‚ãã—ã¦æ¢ã™ã€‚ã‚ã£ãŸã€‚ã“ã“ã€‚
 ~~~bash
 cd C:\Users\nishimine\AppData\Local\lxss\home\nishimine\.ssh
 ~~~
-### ‚»‚µ‚ÄAhomestead.yaml‚ğ•ÒW
+### ãã—ã¦ã€homestead.yamlã‚’ç·¨é›†
 
 ~~~yaml
 authorize: C:\Users\nishimine\AppData\Local\lxss\home\nishimine\.ssh\id_rsa.pub
