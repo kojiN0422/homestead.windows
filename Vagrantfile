@@ -28,6 +28,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     end
 
     Homestead.configure(config, settings)
+    
+    config.ssh.private_key_path = File.expand_path('../vagrant_private_key', __FILE__)
 
     if File.exist? afterScriptPath then
         config.vm.provision "shell", path: afterScriptPath, privileged: false

@@ -1,2 +1,5 @@
 /vendor
 /.vagrant
+
+error.txt
+vagrant_private_key
