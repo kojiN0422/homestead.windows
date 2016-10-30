@@ -11,7 +11,7 @@ keys:
 
 folders:
     - map: ~/Code
-      to: /home/vagrant/Code
+      to: /home/vagrant/Code/Laravel
 
 sites:
     - map: homestead.app

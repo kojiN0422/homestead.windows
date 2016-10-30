@@ -51,7 +51,7 @@ keys:
 ~~~
 - [ ~ ]ホームディレクトリは、Windowsの場合は、UserフォルダがあるストレージのUserフォルダを指し示す。
 ~~~
-例) 
+例)
  C:\Users\{UserName}\
 ~~~
 公開鍵は、ホームディレクトリの.sshフォルダ内に格納する。
@@ -187,5 +187,4 @@ folders:
       to: /home/vagrant/Code
 ~~~
 
-
-
+## homestead.yamlファイルはprovisionを行わないと設定値が反映されない。
